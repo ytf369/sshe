@@ -1,0 +1,40 @@
+[
+    {
+        "id": "fw1",
+        "name": "服务1",
+        "children": [
+            {
+                "id": "cd1",
+                "name": "菜单1",
+                "url": "adfa/dfa"
+            },
+            {
+                "id": "cd2",
+                "name": "菜单2",
+                "url": "adfa/dfa"
+            }
+        ]
+    },
+    {
+        "id": "fw2",
+        "name": "服务2",
+        "children": [
+            {
+                "id": "fcd",
+                "name": "父菜单1",
+                "children": [
+                    {
+                        "id": "zcd1",
+                        "name": "子菜单1",
+                        "url": "adfa/dfa"
+                    },
+                    {
+                        "id": "zcd2",
+                        "name": "子菜单2",
+                        "url": "adfa/dfa"
+                    }
+                ]
+            }
+        ]
+    }
+]
